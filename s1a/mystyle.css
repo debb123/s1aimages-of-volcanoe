@@ -1,0 +1,74 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+header{
+    background-image: url(img/volcano.jpg);
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    color:white;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.433);
+
+}
+main{
+    padding-top: 20px;
+    height: 200vh;
+
+}
+
+footer{
+    background: black;
+    height: 10px;
+}
+
+/* using location as a class */
+.location{
+    border: 2px solid rgb(18, 209, 18);
+    border-radius: 5px;
+    padding: 1px;
+    width:700px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    /* we can replace grayscale with blurr,saturate(use numbers 2,3,---- or invert */
+}
+.gray{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+figure{
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    position: relative;
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: yellow;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
